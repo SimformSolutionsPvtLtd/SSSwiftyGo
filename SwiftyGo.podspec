@@ -19,14 +19,15 @@ Pod::Spec.new do |s|
 
   s.description      = <<-DESC
 TODO: Add long description of the pod here.
+'SwiftyGo is a SwiftUI Coordinator for navigation using only one line code. You can perform all types of navigation in your own SwiftUI project.'
                        DESC
 
-  s.homepage         = 'https://github.com/“HitarthBhatt12”/SwiftyGo'
+  s.homepage         = 'https://github.com/mobile-simformsolutions/SSSwiftyGo.git'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
-  s.author           = { '“HitarthBhatt12”' => '“hitarth.b@simformsolutions.com”' }
-  s.source           = { :git => 'https://github.com/“HitarthBhatt12”/SwiftyGo.git', :tag => s.version.to_s }
-  s.social_media_url = 'https://www.linkedin.com/in/hitarth-bhatt/'
+  s.author           = { "HitarthBhatt12" => "hitarth.b@simformsolutions.com" }
+  s.source           = { :git => 'https://github.com/mobile-simformsolutions/SSSwiftyGo.git', :tag => s.version.to_s }
+  s.social_media_url = "https://www.linkedin.com/in/hitarth-bhatt"
 
   s.ios.deployment_target = '13.0'
 
