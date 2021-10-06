@@ -1,0 +1,16 @@
+PODS:
+  - SwiftyGo (0.1.0)
+
+DEPENDENCIES:
+  - SwiftyGo (from `../`)
+
+EXTERNAL SOURCES:
+  SwiftyGo:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  SwiftyGo: 45e5a3dc0f9f416fcb2da579df1de917287e2981
+
+PODFILE CHECKSUM: 5caa1ca1e8389691c04acf353b2b2199d08f32e2
+
+COCOAPODS: 1.11.2

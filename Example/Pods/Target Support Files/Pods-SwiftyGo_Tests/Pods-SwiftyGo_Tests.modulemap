@@ -1,0 +1,6 @@
+framework module Pods_SwiftyGo_Tests {
+  umbrella header "Pods-SwiftyGo_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}

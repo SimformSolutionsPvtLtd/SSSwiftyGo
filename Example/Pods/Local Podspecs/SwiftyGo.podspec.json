@@ -1,0 +1,22 @@
+{
+  "name": "SwiftyGo",
+  "version": "0.1.0",
+  "summary": "A short description of SwiftyGo.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/“HitarthBhatt12”/SwiftyGo",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "“HitarthBhatt12”": "“hitarth.b@simformsolutions.com”"
+  },
+  "source": {
+    "git": "https://github.com/“HitarthBhatt12”/SwiftyGo.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "9.0"
+  },
+  "source_files": "SwiftyGo/Classes/**/*"
+}

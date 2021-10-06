@@ -1,0 +1,6 @@
+framework module SwiftyGo {
+  umbrella header "SwiftyGo-umbrella.h"
+
+  export *
+  module * { export * }
+}
