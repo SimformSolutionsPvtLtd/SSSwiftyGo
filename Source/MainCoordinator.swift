@@ -57,10 +57,11 @@ extension MainCoordinator: NavigationProtocol {
         }
     }
     
-    public func present<T>(content: T) where T : View {
+    public func present<T>(content: T, style: UIModalPresentationStyle = .popover) where T : View {
         DispatchQueue.main.async {
             let view = content
             let controller = UIHostingController(rootView: view)
+            controller.modalPresentationStyle = style
             self.navigationController?.present(controller, animated: true, completion: nil)
         }
     }

@@ -10,6 +10,6 @@ import SwiftUI
 protocol NavigationProtocol {
     func moveToView<T: View>(content: T)
     func popToPrevious()
-    func present<T: View>(content: T)
+    func present<T: View>(content: T, style: UIModalPresentationStyle)
     func dismissView()
 }
