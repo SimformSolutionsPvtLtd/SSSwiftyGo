@@ -29,5 +29,3 @@ struct EventView: View {
             .frame(width: Sizes.screenWidth - 40)
     }
 }
-
-

@@ -46,9 +46,3 @@ struct HomeView: View {
     }
     
 }
-
-struct sma_Previews: PreviewProvider {
-    static var previews: some View {
-        HomeView()
-    }
-}

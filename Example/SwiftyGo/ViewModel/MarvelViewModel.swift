@@ -28,7 +28,7 @@ struct MarvelViewModel: Identifiable {
     
     static var `default`: MarvelViewModel {
         get {
-            MarvelViewModel(marvelData: MarvelResult(id: 0, title: "", name: "", description: "", thumbnail: ["":""], urls: [["": ""]]))
+            MarvelViewModel(marvelData: MarvelResult(id: 0, title: "", name: "", description: "", thumbnail: ["": ""], urls: [["": ""]]))
         }
     }
  
@@ -41,10 +41,9 @@ struct MarvelViewModel: Identifiable {
         self.urlLink = extractUrl(data: marvelData.urls ?? [["": ""]])
         self.urlType = extractUrlType(data: marvelData.urls ?? [["": ""]])
         
-        let ranks = ["A","B","C","D","S","F","Z"]
+        let ranks = ["A", "B", "C", "D", "S", "F", "Z"]
         self.rank = ranks.randomElement()
     }
-    
     
     func extractImageUrl(data: [String: String]) -> URL {
         let path = data["path"] ?? ""

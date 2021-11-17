@@ -15,7 +15,6 @@ struct ComicView: View {
     
     var body: some View {
         VStack(alignment: .leading) {
-            
             WebImage(url: marvelData.imageUrl)
                 .resizable()
                 .cornerRadius(10)
@@ -27,9 +26,7 @@ struct ComicView: View {
                 .multilineTextAlignment(.leading)
                 .foregroundColor(.black)
                 .padding(.all, 10)
-            
-            //VStack
+            // VStack
         }.frame(width: Sizes.screenWidth/2, height: Sizes.screenHeight/5)
     }
-    
 }

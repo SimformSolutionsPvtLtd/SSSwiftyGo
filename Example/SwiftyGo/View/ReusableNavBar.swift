@@ -18,12 +18,12 @@ struct ReusableNavBar: View {
     
     var body: some View {
         
-        HStack(alignment: .center){
-            Button(action: leftButtonAction ){
+        HStack(alignment: .center) {
+            Button(action: leftButtonAction ) {
                 
-                if isSystemImage.left  {
+                if isSystemImage.left {
                     Image(systemName: leftButtonImage)
-                }else {
+                } else {
                     Image(leftButtonImage)
                         .foregroundColor(.white)
                         .frame(width: 20, height: 20, alignment: .center)
@@ -38,21 +38,19 @@ struct ReusableNavBar: View {
             
             Spacer()
             
-            
-            Button(action: rightButtonAction ){
+            Button(action: rightButtonAction ) {
                 if !rightButtonImage.isEmpty {
-                    if isSystemImage.right  {
+                    if isSystemImage.right {
                         Image(systemName: rightButtonImage)
                             .imageScale(.large)
-                    }else {
+                    } else {
                         Image(rightButtonImage)
                             .foregroundColor(.white)
                             .frame(width: 20, height: 20, alignment: .center)
                     }
                 }
             }
-            
-            //HStack
+            // HStack
         }.padding(.top)
             .padding([.horizontal, .vertical], 20)
             .foregroundColor(.textColor())

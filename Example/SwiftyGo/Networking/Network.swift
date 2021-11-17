@@ -6,7 +6,6 @@
 //  Copyright © 2021 CocoaPods. All rights reserved.
 //
 
-
 import UIKit
 import Combine
 
@@ -32,8 +31,7 @@ class Network {
             .eraseToAnyPublisher()
         
 	}
-    
-    
+        
     func getCharacters() -> AnyPublisher<(MarvelModel, MarvelModel, MarvelModel, MarvelModel), Error> {
         Publishers.Zip4(self.performRequest(eventUrl()),
                         self.performRequest(comicsUrl()),

@@ -16,14 +16,12 @@ struct RatingView: View {
     
     var body: some View {
         HStack(alignment: .center, spacing: spacing) {
-            
             ForEach(1...5, id: \.self) { rating in
-
                Image(systemName: "star.fill")
                     .foregroundColor(rating <= Int(ratings) ? .yellow : .gray)
                     .imageScale(scale)
             }
-            //HStack
+            // HStack
         }
     }
 }

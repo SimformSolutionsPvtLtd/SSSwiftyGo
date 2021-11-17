@@ -17,7 +17,6 @@ struct DetailView: View {
     
     var body: some View {
         ZStack(alignment: .top) {
-            
             VStack {
                 
                 WebImage(url: marvelData.imageUrl)
@@ -25,8 +24,7 @@ struct DetailView: View {
                     .cornerRadius(5)
                     .frame(width: Sizes.screenWidth, height: Sizes.screenHeight/2.5)
                     .cornerRadius(20)
-                
-                
+                                
                 VStack(alignment: .leading) {
                  
                     HStack(alignment: .center) {
@@ -51,29 +49,22 @@ struct DetailView: View {
                         .font(.customText(size: 20))
                         .foregroundColor(.textColor())
                         .padding([.horizontal, .top])
-                    
-                    //VStack
+                    // VStack
                 }
                 
                 RatingView(ratings: marvelData.rating, spacing: 15, scale: .large)
                     .padding([.horizontal, .top])
                 
                 Spacer()
-                
-                
-                //VStack
+                // VStack
             }
             
             NavBar()
-            
-            //ZStack
+            // ZStack
         }.ignoresSafeArea()
     }
     
-    
-    
-    fileprivate func NavBar() -> some View {
-        
+    private func NavBar() -> some View {
         ZStack {
             HStack(alignment: .center) {
                 Button(action: {
@@ -97,21 +88,16 @@ struct DetailView: View {
                     .fontWeight(.bold)
                 
                 Spacer()
-                
-                //HStack
+                // HStack
             }.padding(.horizontal, 20)
-            
-            //ZStack
+            // ZStack
         }.frame(width: Sizes.screenWidth, height: Sizes.screenHeight/12, alignment: .bottom)
             .background(LinearGradient(gradient: Gradient(colors: [Color.black, Color.black.opacity(0.6), Color.clear]), startPoint: .top, endPoint: .bottom), alignment: .bottom)
         
     }
-
     
-    fileprivate func LinksView() -> some View {
-        
+    private func LinksView() -> some View {
         HStack(alignment: .center, spacing: 15) {
-            
             ForEach(marvelData.urlType ?? [], id: \.self) { type in
 
                 Button(action: {
@@ -127,13 +113,9 @@ struct DetailView: View {
                             .foregroundColor(.headerColor())
                     }
                 })
-                
             }
-            //HStack
+            // HStack
         }
     }
     
-    
-    
 }
-

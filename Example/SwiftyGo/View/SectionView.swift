@@ -42,10 +42,8 @@ struct SectionView: View {
                             .imageScale(.medium)
                             .foregroundColor(.headerColor())
                             .opacity(0.5)
-                        
                     }
                 }
-                
                 // HStack
             }.padding(.horizontal, 20)
                 .padding(.bottom, 10)
@@ -84,9 +82,7 @@ struct SectionView: View {
                                 Coordinator.moveToView(content: DetailView(marvelData: value, sectionItem: sectionItem))
                             }
                     }
-                    
                 }
-                
                 // Scroll View
             }
             // VStack

@@ -7,15 +7,13 @@
 
 import SwiftUI
 
-
 struct HomeNavBar: View {
     
     var leftButtonAction = {}
     var rightButtonAction = {}
     
     var body: some View {
-            
-        HStack(alignment: .center, spacing: 30){
+        HStack(alignment: .center, spacing: 30) {
                
                 VStack(alignment: .leading, spacing: 5) {
                     Text("Hey There!")
@@ -26,8 +24,7 @@ struct HomeNavBar: View {
                         .fontWeight(.semibold)
                         .font(.customTitle())
                         .lineLimit(0)
-                    
-                    //VStack
+                    // VStack
                 }
                 
                 Spacer()
@@ -41,7 +38,6 @@ struct HomeNavBar: View {
                                 .frame(width: 40, height: 40)
                                 .foregroundColor(.highlightedColor().opacity(0.2))
                         )
-                    
                 })
                 
                 Button(action: rightButtonAction, label: {
@@ -53,12 +49,9 @@ struct HomeNavBar: View {
                                 .frame(width: 40, height: 40)
                                 .foregroundColor(.highlightedColor().opacity(0.2))
                         )
-                    
                 }).padding(.trailing)
-                
-                //HStack
-            }
-            .padding([.horizontal, .vertical], 20)
+                // HStack
+            }.padding([.horizontal, .vertical], 20)
             .background(Color.backgroundColor())
     }
 }

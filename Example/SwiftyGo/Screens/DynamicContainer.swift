@@ -29,7 +29,6 @@ struct DynamicContainer<Model, Content>: View where Content: View, Model: Identi
         self.content = content
     }
 
-    
     var body: some View {
         switch type {
         case .stack:

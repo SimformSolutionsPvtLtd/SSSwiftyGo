@@ -7,11 +7,8 @@
 
 import Foundation
 
-
 struct Thread {
-    
-    static func runInMainThread(_ block: @escaping ()->()) {
+    static func runInMainThread(_ block: @escaping () -> Void) {
         DispatchQueue.main.async(execute: block)
     }
-    
 }

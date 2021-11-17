@@ -26,9 +26,8 @@ struct CharacterView: View {
                 .foregroundColor(.black)
                 .lineLimit(1)
                 .padding(.horizontal, 5)
-                .frame(width: 100)
-            
-            //VStack
+                .frame(width: 100)   
+            // VStack
         }
     }
 }
