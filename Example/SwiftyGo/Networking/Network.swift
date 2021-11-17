@@ -12,7 +12,7 @@ import Combine
 class Network {
     
     static var shared: Network = Network()
-    
+    private var session = URLSession.shared
     private init() {}
     
     private var decoder: JSONDecoder {
@@ -20,8 +20,6 @@ class Network {
         decoder.keyDecodingStrategy = .convertFromSnakeCase
         return decoder
     }
-    
-    private var session = URLSession.shared
     
     func performRequest<T: Decodable>(_ url: URL) -> AnyPublisher<T, Error> {
         

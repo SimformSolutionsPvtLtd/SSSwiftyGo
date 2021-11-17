@@ -17,10 +17,8 @@ struct ReusableNavBar: View {
     var rightButtonAction  = {}
     
     var body: some View {
-        
         HStack(alignment: .center) {
             Button(action: leftButtonAction ) {
-                
                 if isSystemImage.left {
                     Image(systemName: leftButtonImage)
                 } else {
@@ -55,6 +53,5 @@ struct ReusableNavBar: View {
             .padding([.horizontal, .vertical], 20)
             .foregroundColor(.textColor())
             .background(Color.backgroundColor())
-        
     }
 }

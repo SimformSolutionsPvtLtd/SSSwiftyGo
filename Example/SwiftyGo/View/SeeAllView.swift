@@ -27,12 +27,9 @@ struct SeeAllView<Model, Content>: View where Content: View, Model: Identifiable
     }
     
     var body: some View {
-        
         VStack {
             ReusableNavBar(title: "See All", leftButtonImage: "chevron.left", rightButtonImage: "", isSystemImage: (left: true, right: true), leftButtonAction: {
-                
                 Coordinator.dismissView()
-                
             }, rightButtonAction: {})
             
             LazyVGrid(columns: gridLayout, spacing: 0, content: {
@@ -43,8 +40,6 @@ struct SeeAllView<Model, Content>: View where Content: View, Model: Identifiable
             })
             
             Spacer()
-            
         }
-        
     }
 }

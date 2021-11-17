@@ -15,7 +15,6 @@ struct CharacterView: View {
     
     var body: some View {
         VStack(alignment: .leading) {
-            
             WebImage(url: marvelData.imageUrl)
                 .resizable()
                 .cornerRadius(5)

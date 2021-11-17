@@ -12,11 +12,8 @@ struct EmptyView: View {
     
     var body: some View {
         VStack {
-            
             ReusableNavBar(title: "Notifications", leftButtonImage: "chevron.left", rightButtonImage: "", isSystemImage: (left: true, right: true), leftButtonAction: {
-                
                 Coordinator.dismissView()
-                
             }, rightButtonAction: {})
             
             Spacer()
@@ -34,6 +31,5 @@ struct EmptyView: View {
             
         }.background(Color.backgroundColor())
         .edgesIgnoringSafeArea(.all)
-        
     }
 }

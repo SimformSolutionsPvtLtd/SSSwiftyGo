@@ -18,27 +18,25 @@ struct DetailView: View {
     var body: some View {
         ZStack(alignment: .top) {
             VStack {
-                
                 WebImage(url: marvelData.imageUrl)
                     .resizable()
                     .cornerRadius(5)
                     .frame(width: Sizes.screenWidth, height: Sizes.screenHeight/2.5)
                     .cornerRadius(20)
-                                
+                
                 VStack(alignment: .leading) {
-                 
                     HStack(alignment: .center) {
                         Text(marvelData.title)
-                        .font(.customText(size: 30))
-                        .fontWeight(.semibold)
-                        .foregroundColor(.textColor())
+                            .font(.customText(size: 30))
+                            .fontWeight(.semibold)
+                            .foregroundColor(.textColor())
                         
                         Spacer()
                         
                         Text("\(marvelData.rank ?? "") Rank")
-                        .font(.customText(size: 25))
-                        .fontWeight(.semibold)
-                        .foregroundColor(.textColor())
+                            .font(.customText(size: 25))
+                            .fontWeight(.semibold)
+                            .foregroundColor(.textColor())
                         
                     }.padding([.horizontal, .top])
                     
@@ -99,11 +97,10 @@ struct DetailView: View {
     private func LinksView() -> some View {
         HStack(alignment: .center, spacing: 15) {
             ForEach(marvelData.urlType ?? [], id: \.self) { type in
-
                 Button(action: {
                 }, label: {
                     ZStack(alignment: .center) {
-                     
+                        
                         RoundedRectangle(cornerRadius: 5)
                             .frame(width: 80, height: 40)
                             .foregroundColor(.highlightedColor().opacity(0.2))

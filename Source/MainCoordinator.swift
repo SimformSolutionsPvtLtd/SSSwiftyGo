@@ -28,7 +28,7 @@ public class MainCoordinator {
     private init() {}
     
     //MARK: Initializer
-    public func initialize<T: View>(view: T) {
+    public func initialise<T: View>(view: T) {
         self.navigationController = UINavigationController()
         start(content: view)
     }
@@ -36,12 +36,10 @@ public class MainCoordinator {
     // MARK: - Methods
     private func start<T: View>(content: T) {
         let view = content
-        
         let controller = UIHostingController(rootView: view)
         navigationController?.setViewControllers([controller], animated: true)
         navigationController!.navigationBar.isHidden = true
     }
- 
 }
 
 extension MainCoordinator: NavigationProtocol {
@@ -69,6 +67,4 @@ extension MainCoordinator: NavigationProtocol {
     public func dismissView() {
         navigationController?.dismiss(animated: true, completion: nil)
     }
-    
-    
 }

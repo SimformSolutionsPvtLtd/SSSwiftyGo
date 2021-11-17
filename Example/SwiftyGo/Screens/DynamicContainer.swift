@@ -52,7 +52,6 @@ struct DynamicContainer<Model, Content>: View where Content: View, Model: Identi
                 // AnyView
             ).padding(.horizontal)
             // Switch
-        }
-        
+        } 
     }
 }

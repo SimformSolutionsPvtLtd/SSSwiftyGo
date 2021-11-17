@@ -40,7 +40,6 @@ struct MarvelViewModel: Identifiable {
         self.imageUrl = extractImageUrl(data: marvelData.thumbnail ?? ["": ""])
         self.urlLink = extractUrl(data: marvelData.urls ?? [["": ""]])
         self.urlType = extractUrlType(data: marvelData.urls ?? [["": ""]])
-        
         let ranks = ["A", "B", "C", "D", "S", "F", "Z"]
         self.rank = ranks.randomElement()
     }
@@ -58,7 +57,6 @@ struct MarvelViewModel: Identifiable {
             let url = data["url"] ?? ""
             urls.append(URL(string: url)!)
         }
-        
         return urls
     }
     
@@ -69,7 +67,6 @@ struct MarvelViewModel: Identifiable {
             type = type.capitalized
             types.append(type)
         }
-        
         return types
     }
     

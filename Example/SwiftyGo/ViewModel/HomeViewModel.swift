@@ -11,7 +11,6 @@ import Combine
 class HomeViewModel: ObservableObject {
     
     static var shared = HomeViewModel()
-    
     @Published var marvelData = [HomeSection: [MarvelViewModel]]()
     var cancellable = Set<AnyCancellable>()
     
@@ -28,17 +27,12 @@ class HomeViewModel: ObservableObject {
                     print("Finish")
                 case .failure(let error):
                     print("Error is ", error)
-                }
-                
+                }  
             } receiveValue: { (event, comics, series, character) in
-                
                 self.marvelData[.Event] = event.data.results.map(MarvelViewModel.init)
                 self.marvelData[.Comics] = comics.data.results.map(MarvelViewModel.init)
                 self.marvelData[.Series] = series.data.results.map(MarvelViewModel.init)
                 self.marvelData[.Characters] = character.data.results.map(MarvelViewModel.init)
-                
             }.store(in: &cancellable)
-
     }
-    
 }

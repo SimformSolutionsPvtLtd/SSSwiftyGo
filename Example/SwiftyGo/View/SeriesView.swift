@@ -15,7 +15,6 @@ struct SeriesView: View {
     
     var body: some View {
         HStack {
-            
             WebImage(url: marvelData.imageUrl)
                 .resizable()
                 .cornerRadius(10)
@@ -32,12 +31,10 @@ struct SeriesView: View {
                 Text("31/07/2000")
                     .font(.customText(size: 18))
                     .foregroundColor(.gray)
-                
                 // VStack
             }
             
             Spacer()
-            
             // HStack
         }.frame(width: Sizes.screenWidth/1.2)
     }

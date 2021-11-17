@@ -13,13 +13,11 @@ struct SectionView: View {
     
     var sectionItem: HomeSection = .Event
     var allItems: [HomeSection: [MarvelViewModel]]
-    
     var data = [Int]()
     
     var body: some View {
         VStack(spacing: 5) {
             HStack {
-                
                 Text(sectionItem.rawValue)
                     .font(.header())
                     .bold()
@@ -27,7 +25,6 @@ struct SectionView: View {
                 Spacer()
                 
                 Button(action: {
-                    
                     Coordinator.present(content: SeeAllView(sectionItem: sectionItem.rawValue, items: allItems[sectionItem], content: { value in
                         CharacterView(marvelData: value)
                     }))
@@ -49,7 +46,6 @@ struct SectionView: View {
                 .padding(.bottom, 10)
             
             ScrollView(.horizontal, showsIndicators: false) {
-                
                 switch sectionItem {
                 case .Event:
                     DynamicContainer(data: allItems[sectionItem]) { value in

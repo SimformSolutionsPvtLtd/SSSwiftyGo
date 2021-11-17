@@ -14,7 +14,6 @@ struct HomeNavBar: View {
     
     var body: some View {
         HStack(alignment: .center, spacing: 30) {
-               
                 VStack(alignment: .leading, spacing: 5) {
                     Text("Hey There!")
                         .font(.header())

@@ -21,12 +21,10 @@ struct MarvelData: Codable {
 
 // MARK: - Result
 struct MarvelResult: Codable {
-   
     var id: Int?
     var title: String?
     var name: String?
     var description: String?
     var thumbnail: [String: String]?
     var urls: [[String: String]]?
-   
 }
