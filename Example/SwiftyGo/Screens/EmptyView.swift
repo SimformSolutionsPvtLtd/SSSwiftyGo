@@ -12,21 +12,18 @@ struct EmptyView: View {
     
     var body: some View {
         VStack {
-            
-            MainNavBar(title: "Hello", leftButtonImage: "chevron.left", rightButtonImage: "car", isSystemImage: (left: true, right: true), leftButtonAction: {
-                
+            ReusableNavBar(title: "Notifications", leftButtonImage: "chevron.left", rightButtonImage: "", isSystemImage: (left: true, right: true), leftButtonAction: {
                 Coordinator.dismissView()
-                
             }, rightButtonAction: {})
             
             Spacer()
             
             Image("Hello")
                 .resizable()
-                .frame(width: 200, height: 200)
+                .frame(width: 300, height: 300)
             
-            Text("Hello There!")
-                .font(.title)
+            Text("Oops! you don't get any notification today")
+                .font(.customText(size: 18))
                 .fontWeight(.medium)
                 .padding(.top, 10)
             
@@ -34,6 +31,5 @@ struct EmptyView: View {
             
         }.background(Color.backgroundColor())
         .edgesIgnoringSafeArea(.all)
-        
     }
 }

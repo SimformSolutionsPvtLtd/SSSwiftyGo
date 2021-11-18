@@ -3,32 +3,32 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 46;
+	objectVersion = 52;
 	objects = {
 
 /* Begin PBXBuildFile section */
 		04EDCF539C235A6B71DB0D69EFF64402 /* Pods-SwiftyGo_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 4E4E1378219647F453C62B3AA5A3D9FE /* Pods-SwiftyGo_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		52A7A3E692BB09C0E0F821B1672854A2 /* SwiftyGo-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 8C1AFE2CDD5F66F48F512A543BF30E53 /* SwiftyGo-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		06A44229133E0AFA572F80F0F27E87F4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		1AFAE936CE45EB753ADB76D494F11139 /* SwiftyGo-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 75BA194E3E14B89B55C396508B982AF5 /* SwiftyGo-dummy.m */; };
+		55A1FF0ED7D7FC522EE42E60F0A62BBE /* MainCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B65DC2809B1E1F73E81AA50B4C9F6D2 /* MainCoordinator.swift */; };
 		57BD1AC4C47A0ACD555323EE837F1946 /* Pods-SwiftyGo_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = CAB8E714600C5C83C4996966A0D0D8FE /* Pods-SwiftyGo_Tests-dummy.m */; };
 		6C745D7898C7B85D36EDB3BFAD6CD3AB /* Pods-SwiftyGo_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 861219AD0C3C7C96F47FD08D4D0DB994 /* Pods-SwiftyGo_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8861BEF26525A5D4E675937D8EF4607E /* NavigationProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 464FB2D11BB6387244D69E2BED1BF97E /* NavigationProtocol.swift */; };
 		92FDBD34757229D0C5CEE7332781305C /* Pods-SwiftyGo_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D822C9C3032380188B0C9A255BBD423E /* Pods-SwiftyGo_Example-dummy.m */; };
 		A49FDC20649F66C5E1C1BD8797CEB5B6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
-		BC0B96E1270BF6F6002B8F35 /* MainCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC0B96DF270BF6F6002B8F35 /* MainCoordinator.swift */; };
-		BC0B96E2270BF6F6002B8F35 /* NavigationProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC0B96E0270BF6F6002B8F35 /* NavigationProtocol.swift */; };
 		BDBEE1930F79E1E14F039044E906F94A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
-		E9ED78781CC7AEDB5FBAF48B7E2C972A /* SwiftyGo-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A8EC1461E974B2C5A624F0A41D9A7302 /* SwiftyGo-dummy.m */; };
-		FE70F742C326C7EC5C5C63EFA2D2C8D6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		FA2A96CD9936B4D161C4A38BE5B715D9 /* SwiftyGo-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 8154CAF15DB83282E77CE583D82BBE3D /* SwiftyGo-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		7396B0A51B3238C3FC14E651A81AFCBF /* PBXContainerItemProxy */ = {
+		E46940FBC958EA167525C270C46BC596 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 454793C80DBDA1C005830CDFFB27ADDB;
 			remoteInfo = SwiftyGo;
 		};
-		CC89A11F8DEBDABA762884D9BB739D98 /* PBXContainerItemProxy */ = {
+		F97F9EE6D9E845A06DEF925CAAAED312 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
@@ -38,39 +38,39 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		0544F21749E1618A962D68A81522BEA6 /* SwiftyGo-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SwiftyGo-prefix.pch"; sourceTree = "<group>"; };
-		0788EE16410EA8F20F70479CC656A174 /* SwiftyGo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SwiftyGo.release.xcconfig; sourceTree = "<group>"; };
 		129B150F7E38012A30FE860352A62E41 /* Pods-SwiftyGo_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-SwiftyGo_Example.modulemap"; sourceTree = "<group>"; };
-		1988AAABEB2DBCFF9D43A8D964A3832A /* SwiftyGo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SwiftyGo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1988AAABEB2DBCFF9D43A8D964A3832A /* SwiftyGo */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = SwiftyGo; path = SwiftyGo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		29CBB9F536616E70DC20F751535FC8E7 /* SwiftyGo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SwiftyGo.debug.xcconfig; sourceTree = "<group>"; };
 		2CCBED1BB1DF55C2F01530F8451A4BA7 /* Pods-SwiftyGo_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SwiftyGo_Tests-Info.plist"; sourceTree = "<group>"; };
+		33ED7B3BABD4C5C2F163D2ADE39E5FDC /* SwiftyGo.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = SwiftyGo.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		45AF433ECD836C118063EAA1BD6A9E8F /* Pods-SwiftyGo_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-SwiftyGo_Tests.modulemap"; sourceTree = "<group>"; };
+		464FB2D11BB6387244D69E2BED1BF97E /* NavigationProtocol.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NavigationProtocol.swift; path = Source/NavigationProtocol.swift; sourceTree = "<group>"; };
 		49671D40EEDBA2F1672CB76AB65A097A /* Pods-SwiftyGo_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SwiftyGo_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		4D30744FA47D435ACAA73CAD3CE6AF4E /* SwiftyGo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SwiftyGo.debug.xcconfig; sourceTree = "<group>"; };
 		4E4E1378219647F453C62B3AA5A3D9FE /* Pods-SwiftyGo_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-SwiftyGo_Tests-umbrella.h"; sourceTree = "<group>"; };
-		55EEF6B08B400A5302D2DB50F679697E /* SwiftyGo.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = SwiftyGo.modulemap; sourceTree = "<group>"; };
+		4FA0523068875E97D84B75DD0630C112 /* SwiftyGo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SwiftyGo.release.xcconfig; sourceTree = "<group>"; };
 		5761B7B9E2081EDE6C6D6CBA17B474AF /* Pods-SwiftyGo_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SwiftyGo_Example-frameworks.sh"; sourceTree = "<group>"; };
 		5C38E8DB8E26031D1316E2C54E42A406 /* Pods-SwiftyGo_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SwiftyGo_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		63ECD8AC9733D6B7CDCA626097DD3E8D /* Pods-SwiftyGo_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SwiftyGo_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		6B46D49BB69E36B2E1AAE189EA3A9A71 /* SwiftyGo.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = SwiftyGo.modulemap; sourceTree = "<group>"; };
+		6B65DC2809B1E1F73E81AA50B4C9F6D2 /* MainCoordinator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MainCoordinator.swift; path = Source/MainCoordinator.swift; sourceTree = "<group>"; };
 		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		7372EAB7C8CC2FDCCFD1B2FAB843BA16 /* Pods_SwiftyGo_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SwiftyGo_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7372EAB7C8CC2FDCCFD1B2FAB843BA16 /* Pods-SwiftyGo_Tests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-SwiftyGo_Tests"; path = Pods_SwiftyGo_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		75BA194E3E14B89B55C396508B982AF5 /* SwiftyGo-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SwiftyGo-dummy.m"; sourceTree = "<group>"; };
 		7994FFAE690A4CA42C2BD0BB63E340FB /* Pods-SwiftyGo_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SwiftyGo_Example.release.xcconfig"; sourceTree = "<group>"; };
+		8154CAF15DB83282E77CE583D82BBE3D /* SwiftyGo-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SwiftyGo-umbrella.h"; sourceTree = "<group>"; };
 		861219AD0C3C7C96F47FD08D4D0DB994 /* Pods-SwiftyGo_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-SwiftyGo_Example-umbrella.h"; sourceTree = "<group>"; };
-		8C1AFE2CDD5F66F48F512A543BF30E53 /* SwiftyGo-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SwiftyGo-umbrella.h"; sourceTree = "<group>"; };
-		9204D6ADB59A14ADFFD034EC4C220DB8 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		A6194881631B828F9E2B87087294072D /* SwiftyGo-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "SwiftyGo-Info.plist"; sourceTree = "<group>"; };
-		A8EC1461E974B2C5A624F0A41D9A7302 /* SwiftyGo-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SwiftyGo-dummy.m"; sourceTree = "<group>"; };
-		AB66102F62634C614D15AAC609BAA0C2 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
-		ACBA649A488E539E83B16932F49035A4 /* Pods_SwiftyGo_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SwiftyGo_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		BC0B96DF270BF6F6002B8F35 /* MainCoordinator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainCoordinator.swift; sourceTree = "<group>"; };
-		BC0B96E0270BF6F6002B8F35 /* NavigationProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NavigationProtocol.swift; sourceTree = "<group>"; };
+		8F9BAAB99AC68FBEA99FFD81645B08EA /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		90903BC2D15DC27ACF4C00EEE5F97F42 /* SwiftyGo-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "SwiftyGo-Info.plist"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		ACBA649A488E539E83B16932F49035A4 /* Pods-SwiftyGo_Example */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-SwiftyGo_Example"; path = Pods_SwiftyGo_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		BFC6EF8C76F1C478E0130177527934FF /* Pods-SwiftyGo_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SwiftyGo_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		C56122F4547908F822521916FF468F26 /* Pods-SwiftyGo_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SwiftyGo_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		CAB8E714600C5C83C4996966A0D0D8FE /* Pods-SwiftyGo_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SwiftyGo_Tests-dummy.m"; sourceTree = "<group>"; };
 		CF65EB3065836A2D822571E1E37011ED /* Pods-SwiftyGo_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SwiftyGo_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		D1EDBD9799860CADE6C3C022FD8BD9B5 /* Pods-SwiftyGo_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SwiftyGo_Example-Info.plist"; sourceTree = "<group>"; };
-		D3C5F016B1C52BF3473C68534A345595 /* SwiftyGo.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = SwiftyGo.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		D822C9C3032380188B0C9A255BBD423E /* Pods-SwiftyGo_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SwiftyGo_Example-dummy.m"; sourceTree = "<group>"; };
+		DF014CD87FB1AB6897DE2C72B920CDA2 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		F294E931028CBC3F0A922312973F4043 /* SwiftyGo-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SwiftyGo-prefix.pch"; sourceTree = "<group>"; };
 		F7F6CE93D55EB40B206B291C8A788610 /* Pods-SwiftyGo_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SwiftyGo_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -83,14 +83,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		5211034785E89CAE8A1196469890D197 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				FE70F742C326C7EC5C5C63EFA2D2C8D6 /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		B11AFB9E53DF33844713E5E26B921068 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -99,43 +91,52 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		F4B329DD8DA5106CFA0CF9DE27E2BF59 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				06A44229133E0AFA572F80F0F27E87F4 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		2E8B795C23874CB6D7AE4274763C2983 /* Pod */ = {
+		225B6D97C6FF06C7C90021F89DB255F6 /* Pod */ = {
 			isa = PBXGroup;
 			children = (
-				AB66102F62634C614D15AAC609BAA0C2 /* LICENSE */,
-				9204D6ADB59A14ADFFD034EC4C220DB8 /* README.md */,
-				D3C5F016B1C52BF3473C68534A345595 /* SwiftyGo.podspec */,
+				8F9BAAB99AC68FBEA99FFD81645B08EA /* LICENSE */,
+				DF014CD87FB1AB6897DE2C72B920CDA2 /* README.md */,
+				33ED7B3BABD4C5C2F163D2ADE39E5FDC /* SwiftyGo.podspec */,
 			);
 			name = Pod;
 			sourceTree = "<group>";
 		};
-		3A3C3D9BB15C68E44CBBE7E277277517 /* Support Files */ = {
+		34AADCBA9C86D934C528D61F7F44458C /* SwiftyGo */ = {
 			isa = PBXGroup;
 			children = (
-				55EEF6B08B400A5302D2DB50F679697E /* SwiftyGo.modulemap */,
-				A8EC1461E974B2C5A624F0A41D9A7302 /* SwiftyGo-dummy.m */,
-				A6194881631B828F9E2B87087294072D /* SwiftyGo-Info.plist */,
-				0544F21749E1618A962D68A81522BEA6 /* SwiftyGo-prefix.pch */,
-				8C1AFE2CDD5F66F48F512A543BF30E53 /* SwiftyGo-umbrella.h */,
-				4D30744FA47D435ACAA73CAD3CE6AF4E /* SwiftyGo.debug.xcconfig */,
-				0788EE16410EA8F20F70479CC656A174 /* SwiftyGo.release.xcconfig */,
-			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/SwiftyGo";
-			sourceTree = "<group>";
-		};
-		3F33E7BD95D5473BC359C6E44C2C68C9 /* SwiftyGo */ = {
-			isa = PBXGroup;
-			children = (
-				BC0B96DE270BF6F6002B8F35 /* Source */,
-				2E8B795C23874CB6D7AE4274763C2983 /* Pod */,
-				3A3C3D9BB15C68E44CBBE7E277277517 /* Support Files */,
+				6B65DC2809B1E1F73E81AA50B4C9F6D2 /* MainCoordinator.swift */,
+				464FB2D11BB6387244D69E2BED1BF97E /* NavigationProtocol.swift */,
+				225B6D97C6FF06C7C90021F89DB255F6 /* Pod */,
+				4A48B51482B51C54820765539CBA9D7F /* Support Files */,
 			);
 			name = SwiftyGo;
 			path = ../..;
+			sourceTree = "<group>";
+		};
+		4A48B51482B51C54820765539CBA9D7F /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				6B46D49BB69E36B2E1AAE189EA3A9A71 /* SwiftyGo.modulemap */,
+				75BA194E3E14B89B55C396508B982AF5 /* SwiftyGo-dummy.m */,
+				90903BC2D15DC27ACF4C00EEE5F97F42 /* SwiftyGo-Info.plist */,
+				F294E931028CBC3F0A922312973F4043 /* SwiftyGo-prefix.pch */,
+				8154CAF15DB83282E77CE583D82BBE3D /* SwiftyGo-umbrella.h */,
+				29CBB9F536616E70DC20F751535FC8E7 /* SwiftyGo.debug.xcconfig */,
+				4FA0523068875E97D84B75DD0630C112 /* SwiftyGo.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/SwiftyGo";
 			sourceTree = "<group>";
 		};
 		4E87407CB4C300C65040A8A90B3CCC79 /* Pods-SwiftyGo_Tests */ = {
@@ -165,11 +166,19 @@
 		608D1AD5CB8D937EAE8F9BFAE5CD7D9B /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				ACBA649A488E539E83B16932F49035A4 /* Pods_SwiftyGo_Example.framework */,
-				7372EAB7C8CC2FDCCFD1B2FAB843BA16 /* Pods_SwiftyGo_Tests.framework */,
-				1988AAABEB2DBCFF9D43A8D964A3832A /* SwiftyGo.framework */,
+				ACBA649A488E539E83B16932F49035A4 /* Pods-SwiftyGo_Example */,
+				7372EAB7C8CC2FDCCFD1B2FAB843BA16 /* Pods-SwiftyGo_Tests */,
+				1988AAABEB2DBCFF9D43A8D964A3832A /* SwiftyGo */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		9CD2AEEB63DB383CBD497EC036C56B64 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				34AADCBA9C86D934C528D61F7F44458C /* SwiftyGo */,
+			);
+			name = "Development Pods";
 			sourceTree = "<group>";
 		};
 		AF61F9C12AA917FAB2B77DB1D2C97204 /* Targets Support Files */ = {
@@ -179,15 +188,6 @@
 				4E87407CB4C300C65040A8A90B3CCC79 /* Pods-SwiftyGo_Tests */,
 			);
 			name = "Targets Support Files";
-			sourceTree = "<group>";
-		};
-		BC0B96DE270BF6F6002B8F35 /* Source */ = {
-			isa = PBXGroup;
-			children = (
-				BC0B96DF270BF6F6002B8F35 /* MainCoordinator.swift */,
-				BC0B96E0270BF6F6002B8F35 /* NavigationProtocol.swift */,
-			);
-			path = Source;
 			sourceTree = "<group>";
 		};
 		C1CFC242B58A0BECF9027A786DC31EB7 /* Pods-SwiftyGo_Example */ = {
@@ -211,7 +211,7 @@
 			isa = PBXGroup;
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
-				DC539A3F5163F73CB5EA29B356E7D752 /* Development Pods */,
+				9CD2AEEB63DB383CBD497EC036C56B64 /* Development Pods */,
 				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
 				608D1AD5CB8D937EAE8F9BFAE5CD7D9B /* Products */,
 				AF61F9C12AA917FAB2B77DB1D2C97204 /* Targets Support Files */,
@@ -226,30 +226,22 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		DC539A3F5163F73CB5EA29B356E7D752 /* Development Pods */ = {
-			isa = PBXGroup;
-			children = (
-				3F33E7BD95D5473BC359C6E44C2C68C9 /* SwiftyGo */,
-			);
-			name = "Development Pods";
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
+		10A138ADD120126D3F75BD66CA9D3A34 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA2A96CD9936B4D161C4A38BE5B715D9 /* SwiftyGo-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		29CD380F22D731C9BDB986552CCB8956 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				6C745D7898C7B85D36EDB3BFAD6CD3AB /* Pods-SwiftyGo_Example-umbrella.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		3C9159A743BD2628947C7472C4A80E35 /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				52A7A3E692BB09C0E0F821B1672854A2 /* SwiftyGo-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -276,21 +268,21 @@
 			buildRules = (
 			);
 			dependencies = (
-				4643E58A09DF39176BE1AD1B8E91859B /* PBXTargetDependency */,
+				7BBA67210AF4C3A1DC770EAD7A67E804 /* PBXTargetDependency */,
 			);
 			name = "Pods-SwiftyGo_Example";
 			productName = Pods_SwiftyGo_Example;
-			productReference = ACBA649A488E539E83B16932F49035A4 /* Pods_SwiftyGo_Example.framework */;
+			productReference = ACBA649A488E539E83B16932F49035A4 /* Pods-SwiftyGo_Example */;
 			productType = "com.apple.product-type.framework";
 		};
 		454793C80DBDA1C005830CDFFB27ADDB /* SwiftyGo */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 645717B1AB3DA0D1731A5DF14C7D255F /* Build configuration list for PBXNativeTarget "SwiftyGo" */;
+			buildConfigurationList = 2C87A75140A6EA4FC11B8A4B1622CE39 /* Build configuration list for PBXNativeTarget "SwiftyGo" */;
 			buildPhases = (
-				3C9159A743BD2628947C7472C4A80E35 /* Headers */,
-				E3B2C86D0A745DBDFE867161EB20A929 /* Sources */,
-				5211034785E89CAE8A1196469890D197 /* Frameworks */,
-				60DF9A8D8ED37AC4FE90A18A205B8B73 /* Resources */,
+				10A138ADD120126D3F75BD66CA9D3A34 /* Headers */,
+				940A991100AB6FBAB97007899C6A7031 /* Sources */,
+				F4B329DD8DA5106CFA0CF9DE27E2BF59 /* Frameworks */,
+				3A1505C4BAB1C510349B74652DD05F9A /* Resources */,
 			);
 			buildRules = (
 			);
@@ -298,7 +290,7 @@
 			);
 			name = SwiftyGo;
 			productName = SwiftyGo;
-			productReference = 1988AAABEB2DBCFF9D43A8D964A3832A /* SwiftyGo.framework */;
+			productReference = 1988AAABEB2DBCFF9D43A8D964A3832A /* SwiftyGo */;
 			productType = "com.apple.product-type.framework";
 		};
 		A0EBCBCE9057D76EC620320FD870B606 /* Pods-SwiftyGo_Tests */ = {
@@ -313,11 +305,11 @@
 			buildRules = (
 			);
 			dependencies = (
-				89142F6D002912D64C82A0FCB8E64EE6 /* PBXTargetDependency */,
+				7488667AF3408777A6201C9560BD5979 /* PBXTargetDependency */,
 			);
 			name = "Pods-SwiftyGo_Tests";
 			productName = Pods_SwiftyGo_Tests;
-			productReference = 7372EAB7C8CC2FDCCFD1B2FAB843BA16 /* Pods_SwiftyGo_Tests.framework */;
+			productReference = 7372EAB7C8CC2FDCCFD1B2FAB843BA16 /* Pods-SwiftyGo_Tests */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -327,15 +319,10 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 1240;
-				LastUpgradeCheck = 1300;
-				TargetAttributes = {
-					454793C80DBDA1C005830CDFFB27ADDB = {
-						LastSwiftMigration = 1300;
-					};
-				};
+				LastUpgradeCheck = 1240;
 			};
 			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
-			compatibilityVersion = "Xcode 3.2";
+			compatibilityVersion = "Xcode 11.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -355,14 +342,14 @@
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		47F647C79F97160413A9F7439BA2FADC /* Resources */ = {
+		3A1505C4BAB1C510349B74652DD05F9A /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		60DF9A8D8ED37AC4FE90A18A205B8B73 /* Resources */ = {
+		47F647C79F97160413A9F7439BA2FADC /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -387,13 +374,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		E3B2C86D0A745DBDFE867161EB20A929 /* Sources */ = {
+		940A991100AB6FBAB97007899C6A7031 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BC0B96E2270BF6F6002B8F35 /* NavigationProtocol.swift in Sources */,
-				E9ED78781CC7AEDB5FBAF48B7E2C972A /* SwiftyGo-dummy.m in Sources */,
-				BC0B96E1270BF6F6002B8F35 /* MainCoordinator.swift in Sources */,
+				55A1FF0ED7D7FC522EE42E60F0A62BBE /* MainCoordinator.swift in Sources */,
+				8861BEF26525A5D4E675937D8EF4607E /* NavigationProtocol.swift in Sources */,
+				1AFAE936CE45EB753ADB76D494F11139 /* SwiftyGo-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -408,26 +395,27 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		4643E58A09DF39176BE1AD1B8E91859B /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = SwiftyGo;
-			target = 454793C80DBDA1C005830CDFFB27ADDB /* SwiftyGo */;
-			targetProxy = 7396B0A51B3238C3FC14E651A81AFCBF /* PBXContainerItemProxy */;
-		};
-		89142F6D002912D64C82A0FCB8E64EE6 /* PBXTargetDependency */ = {
+		7488667AF3408777A6201C9560BD5979 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = "Pods-SwiftyGo_Example";
 			target = 2BCA1BCBEBD7582440E5C2784B5364F6 /* Pods-SwiftyGo_Example */;
-			targetProxy = CC89A11F8DEBDABA762884D9BB739D98 /* PBXContainerItemProxy */;
+			targetProxy = F97F9EE6D9E845A06DEF925CAAAED312 /* PBXContainerItemProxy */;
+		};
+		7BBA67210AF4C3A1DC770EAD7A67E804 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SwiftyGo;
+			target = 454793C80DBDA1C005830CDFFB27ADDB /* SwiftyGo */;
+			targetProxy = E46940FBC958EA167525C270C46BC596 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		16FD525962ABA2F9CF763DF6B3B59028 /* Release */ = {
+		41182CB1A1F8D7E756A10643F123B12E /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 63ECD8AC9733D6B7CDCA626097DD3E8D /* Pods-SwiftyGo_Tests.release.xcconfig */;
+			baseConfigurationReference = 7994FFAE690A4CA42C2BD0BB63E340FB /* Pods-SwiftyGo_Example.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
@@ -436,12 +424,16 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-SwiftyGo_Tests/Pods-SwiftyGo_Tests-Info.plist";
+				INFOPLIST_FILE = "Target Support Files/Pods-SwiftyGo_Example/Pods-SwiftyGo_Example-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-SwiftyGo_Tests/Pods-SwiftyGo_Tests.modulemap";
+				MODULEMAP_FILE = "Target Support Files/Pods-SwiftyGo_Example/Pods-SwiftyGo_Example.modulemap";
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
 				PODS_ROOT = "$(SRCROOT)";
@@ -456,7 +448,44 @@
 			};
 			name = Release;
 		};
-		25AD9454612BF454A1E3DC4CD4FA8C6D /* Debug */ = {
+		7334B695C139BDC4744FD28346682C56 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5C38E8DB8E26031D1316E2C54E42A406 /* Pods-SwiftyGo_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-SwiftyGo_Tests/Pods-SwiftyGo_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-SwiftyGo_Tests/Pods-SwiftyGo_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		8DE5143C03248BB6CD542DE3963D6F3A /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -522,68 +551,7 @@
 			};
 			name = Debug;
 		};
-		693DC55E7B7A5091113B8112A3C06DD5 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 0788EE16410EA8F20F70479CC656A174 /* SwiftyGo.release.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/SwiftyGo/SwiftyGo-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/SwiftyGo/SwiftyGo-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/SwiftyGo/SwiftyGo.modulemap";
-				PRODUCT_MODULE_NAME = SwiftyGo;
-				PRODUCT_NAME = SwiftyGo;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		751F2EF028009908A6369F24214A17FD /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 4D30744FA47D435ACAA73CAD3CE6AF4E /* SwiftyGo.debug.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/SwiftyGo/SwiftyGo-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/SwiftyGo/SwiftyGo-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/SwiftyGo/SwiftyGo.modulemap";
-				PRODUCT_MODULE_NAME = SwiftyGo;
-				PRODUCT_NAME = SwiftyGo;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		CA547D2C7E9A8A153DC2B27FBE00B112 /* Release */ = {
+		9E406C6AAF85E580207CD97B0044DEAB /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -638,17 +606,19 @@
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
 				SWIFT_VERSION = 5.0;
 				SYMROOT = "${SRCROOT}/../build";
 			};
 			name = Release;
 		};
-		D2B65C38420BCC0B56B92DB96A79CA08 /* Debug */ = {
+		B5251E11950038E37E4AE38057EB05A2 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 5C38E8DB8E26031D1316E2C54E42A406 /* Pods-SwiftyGo_Tests.debug.xcconfig */;
+			baseConfigurationReference = 63ECD8AC9733D6B7CDCA626097DD3E8D /* Pods-SwiftyGo_Tests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
@@ -660,41 +630,13 @@
 				INFOPLIST_FILE = "Target Support Files/Pods-SwiftyGo_Tests/Pods-SwiftyGo_Tests-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-SwiftyGo_Tests/Pods-SwiftyGo_Tests.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		E4BA62E1B15C970EDF7307C4D249D3FF /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 7994FFAE690A4CA42C2BD0BB63E340FB /* Pods-SwiftyGo_Example.release.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-SwiftyGo_Example/Pods-SwiftyGo_Example-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-SwiftyGo_Example/Pods-SwiftyGo_Example.modulemap";
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
 				PODS_ROOT = "$(SRCROOT)";
@@ -709,11 +651,47 @@
 			};
 			name = Release;
 		};
-		F0B7EBF947DC42B7A1978629088B9F34 /* Debug */ = {
+		B98889B81A3B86967F78AEE7A0EF1A6A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 29CBB9F536616E70DC20F751535FC8E7 /* SwiftyGo.debug.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/SwiftyGo/SwiftyGo-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SwiftyGo/SwiftyGo-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/SwiftyGo/SwiftyGo.modulemap";
+				PRODUCT_MODULE_NAME = SwiftyGo;
+				PRODUCT_NAME = SwiftyGo;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		BF0C2A32DF04A972930D75096B07249C /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 49671D40EEDBA2F1672CB76AB65A097A /* Pods-SwiftyGo_Example.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
@@ -725,7 +703,11 @@
 				INFOPLIST_FILE = "Target Support Files/Pods-SwiftyGo_Example/Pods-SwiftyGo_Example-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-SwiftyGo_Example/Pods-SwiftyGo_Example.modulemap";
 				OTHER_LDFLAGS = "";
@@ -741,23 +723,59 @@
 			};
 			name = Debug;
 		};
+		E1AF2773FAA4ECE50950634159D9364F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4FA0523068875E97D84B75DD0630C112 /* SwiftyGo.release.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/SwiftyGo/SwiftyGo-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SwiftyGo/SwiftyGo-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/SwiftyGo/SwiftyGo.modulemap";
+				PRODUCT_MODULE_NAME = SwiftyGo;
+				PRODUCT_NAME = SwiftyGo;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+		2C87A75140A6EA4FC11B8A4B1622CE39 /* Build configuration list for PBXNativeTarget "SwiftyGo" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				25AD9454612BF454A1E3DC4CD4FA8C6D /* Debug */,
-				CA547D2C7E9A8A153DC2B27FBE00B112 /* Release */,
+				B98889B81A3B86967F78AEE7A0EF1A6A /* Debug */,
+				E1AF2773FAA4ECE50950634159D9364F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		645717B1AB3DA0D1731A5DF14C7D255F /* Build configuration list for PBXNativeTarget "SwiftyGo" */ = {
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				751F2EF028009908A6369F24214A17FD /* Debug */,
-				693DC55E7B7A5091113B8112A3C06DD5 /* Release */,
+				8DE5143C03248BB6CD542DE3963D6F3A /* Debug */,
+				9E406C6AAF85E580207CD97B0044DEAB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -765,8 +783,8 @@
 		7B4F3C56A97981949E30B30793978268 /* Build configuration list for PBXNativeTarget "Pods-SwiftyGo_Tests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				D2B65C38420BCC0B56B92DB96A79CA08 /* Debug */,
-				16FD525962ABA2F9CF763DF6B3B59028 /* Release */,
+				7334B695C139BDC4744FD28346682C56 /* Debug */,
+				B5251E11950038E37E4AE38057EB05A2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -774,8 +792,8 @@
 		B2A4BB062B84A9B041C14C0BCC688463 /* Build configuration list for PBXNativeTarget "Pods-SwiftyGo_Example" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				F0B7EBF947DC42B7A1978629088B9F34 /* Debug */,
-				E4BA62E1B15C970EDF7307C4D249D3FF /* Release */,
+				BF0C2A32DF04A972930D75096B07249C /* Debug */,
+				41182CB1A1F8D7E756A10643F123B12E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

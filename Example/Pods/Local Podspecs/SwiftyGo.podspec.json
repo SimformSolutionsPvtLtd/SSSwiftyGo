@@ -1,22 +1,25 @@
 {
   "name": "SwiftyGo",
   "version": "0.1.0",
-  "summary": "A short description of SwiftyGo.",
-  "description": "TODO: Add long description of the pod here.",
-  "homepage": "https://github.com/“HitarthBhatt12”/SwiftyGo",
+  "summary": "SwiftyGo is a SwiftUI Coordinator for navigation using only one line code.",
+  "description": "TODO: Add long description of the pod here.\n'SwiftyGo is a SwiftUI Coordinator for navigation using only one line code. You can perform all types of navigation in your own SwiftUI project.'",
+  "homepage": "https://github.com/mobile-simformsolutions/SSSwiftyGo.git",
   "license": {
     "type": "MIT",
     "file": "LICENSE"
   },
   "authors": {
-    "“HitarthBhatt12”": "“hitarth.b@simformsolutions.com”"
+    "HitarthBhatt12": "hitarth.b@simformsolutions.com"
   },
   "source": {
-    "git": "https://github.com/“HitarthBhatt12”/SwiftyGo.git",
+    "git": "https://github.com/mobile-simformsolutions/SSSwiftyGo.git",
     "tag": "0.1.0"
   },
+  "social_media_url": "https://www.linkedin.com/in/hitarth-bhatt",
   "platforms": {
-    "ios": "9.0"
+    "ios": "13.0"
   },
-  "source_files": "SwiftyGo/Classes/**/*"
+  "source_files": "Source/**/*.swift",
+  "swift_versions": "5.0",
+  "swift_version": "5.0"
 }
