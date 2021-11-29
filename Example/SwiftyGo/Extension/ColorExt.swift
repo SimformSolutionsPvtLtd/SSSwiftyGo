@@ -30,24 +30,3 @@ extension Color {
     }
     
 }
-
-extension UIColor {
-    
-    static func backgroundColor() -> UIColor? {
-        return UIColor(named: "Background")
-    }
-    
-    static func textColor() -> UIColor? {
-        return UIColor(named: "Text")
-    }
-    
-    static func reverseTextColor() -> UIColor? {
-        return UIColor(named: "ReverseText")
-    }
-    
-    static func highlightedColor() -> UIColor? {
-        return UIColor(named: "Highlight")
-    }
-    
-}
-
