@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'SwiftyGo'
-  s.version          = '0.1.0'
+  s.version          = '1.0.0'
   s.summary          = 'SwiftyGo is a SwiftUI Coordinator for navigation using only one line code.'
 
 # This description is used to generate tags and improve search results.
