@@ -2,9 +2,9 @@
 
 SSSwiftyGo
 =============
-[![CocoaPods Version](https://img.shields.io/cocoapods/v/SSMediaLibrary.svg)](https://cocoapods.org/pods/SwiftyGo)
-[![Platform](https://img.shields.io/cocoapods/p/SSMediaLibrary.svg?style=flat)](https://cocoapods.org/pods/SwiftyGo)
-[![License](https://img.shields.io/cocoapods/l/SSMediaLibrary.svg?style=flat)](https://cocoapods.org/pods/SwiftyGo)
+[![CocoaPods Version](https://img.shields.io/cocoapods/v/SwiftyGo)](https://cocoapods.org/pods/SwiftyGo)
+[![Platform](https://img.shields.io/cocoapods/p/SwiftyGo)](https://cocoapods.org/pods/SwiftyGo)
+[![License](https://img.shields.io/github/license/SimformSolutionsPvtLtd/SSSwiftyGo)](https://cocoapods.org/pods/SwiftyGo)
 [![Swift Version][swift-image]][swift-url]
 [![PRs Welcome][PR-image]][PR-url]
 [![Twitter](https://img.shields.io/badge/Twitter-@simform-blue.svg?style=flat)](https://twitter.com/simform)
@@ -15,7 +15,7 @@ Setup Instructions
 ------------------
 [CocoaPods](http://cocoapods.org)
 ------------------
-To integrate SSMediaLibrary into your Xcode project using CocoaPods, specify it in your `Podfile`:
+To integrate SSSwiftyGo into your Xcode project using CocoaPods, specify it in your `Podfile`:
 ```ruby
 pod 'SwiftyGo'
 ```
