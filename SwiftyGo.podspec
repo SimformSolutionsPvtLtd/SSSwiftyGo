@@ -30,7 +30,7 @@ TODO: Add long description of the pod here.
 
   s.ios.deployment_target = '13.0'
 
-  s.source_files = 'Source/**/*.swift'
+  s.source_files = 'Sources/SwiftyGo/**/*.swift'
   s.swift_version = '5.0'
   s.platforms = {
       "ios": "13.0"
